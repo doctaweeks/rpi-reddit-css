@@ -2,24 +2,6 @@
   position: static;
 }
 
-/*better old code that i'm not really sure how to deal with -jayjaywalker3*/
-/*.side a[href$="http://www.reddit.com/r/RPI/comments/124jn6/thanksgiving_break_carpool_thread/"] {
-    position: absolute;
-    top: 30px;
-    left: 620px;
-    display: inline-block;
-    padding: 5px;
-    background: #F6E69F;
-    border: 1px solid orange;
-    z-index: 99;
-    font-weight: bold;
-}*/
-
-/*crappy new code*/
-/*body > .content {
-  margin-top: 35px;
-}*/
-
 .side .md h6 {
   position: absolute;
   top: 75px;
