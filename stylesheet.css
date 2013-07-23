@@ -1,5 +1,5 @@
 .titlebox form {
-    position: static;
+  position: static;
 }
 
 /*better old code that i'm not really sure how to deal with -jayjaywalker3*/
@@ -13,427 +13,456 @@
     border: 1px solid orange;
     z-index: 99;
     font-weight: bold;
-
-
 }*/
 
 /*crappy new code*/
-   /* body > .content {
-        margin-top: 35px;
-        } */
-    .side .md h6 {
-        position: absolute;
-        top: 75px;
-        left: 220px;
- /*Adjust this until sticky is in position*/
-        display: inline-block;
-        padding: 5px;
-        background: #F6E69F;
-        border: 1px solid orange;
-        display: block;
-        font-weight: bold;
-        }
+/*body > .content {
+  margin-top: 35px;
+}*/
+
+.side .md h6 {
+  position: absolute;
+  top: 75px;
+  left: 220px;
+  /* Adjust this until sticky is in position */
+  display: inline-block;
+  padding: 5px;
+  background: #F6E69F;
+  border: 1px solid orange;
+  display: block;
+  font-weight: bold;
+}
 
 div.titlebox span.word {
-display: none;
+  display: none;
 }
 
 div.titlebox span.number:after {
-content: " nerds";
+  content: " nerds";
 }
 
 .users-online:after {
   content: "online"
 }
 
+/* Flair */
+
 .flair-architecture {
-border: 2px solid #6C5081;
+  border: 2px solid #6C5081;
 }
 
 .flair-architecture:before {
-content: "ARCH ";
+  content: "ARCH ";
 }
 
 .flair-cheme {
-border: 2px solid #F4742B;
+  border: 2px solid #F4742B;
 }
 
 .flair-cheme:before {
-content: "CHEM-E ";
+  content: "CHEM-E ";
 }
 
 .flair-nucl {
-border: 2px solid #F4742B;
+  border: 2px solid #F4742B;
 }
 
 .flair-nucl:before {
-content: "NUCL ";
+  content: "NUCL ";
 }
 
 .flair-comm {
-border: 2px solid #C25A3D;
+  border: 2px solid #C25A3D;
 }
 
 .flair-comm:before {
-content: "COMM ";
+  content: "COMM ";
 }
 
 .flair-civl {
-border: 2px solid #F4742B;
+  border: 2px solid #F4742B;
 }
 
 .flair-civl:before {
-content: "CIVL ";
+  content: "CIVL ";
 }
 
 .flair-cs {
-border: 2px solid #EBA301;
+  border: 2px solid #EBA301;
 }
 
 .flair-cs:before {
-content: "CS ";
+  content: "CS ";
 }
 
 .flair-cs-emac {
-border: 2px solid #EBA301;
+  border: 2px solid #EBA301;
 }
 
 .flair-cs-emac:before {
-content: "CS/EMAC ";
-border-top: 2px solid #e8e8e8;
-border-bottom: 2px solid #e8e8e8;
+  content: "CS/EMAC ";
+  border-top: 2px solid #e8e8e8;
+  border-bottom: 2px solid #e8e8e8;
 }
 
 .flair-cs-phil {
-border: 2px solid #EBA301;
+  border: 2px solid #EBA301;
 }
 
 .flair-cs-phil:before {
-content: "CS/PHIL ";
-border-top: 2px solid #032475;
-border-bottom: 2px solid #032475;
+  content: "CS/PHIL ";
+  border-top: 2px solid #032475;
+  border-bottom: 2px solid #032475;
 }
 
 .flair-cs-gsas {
-border: 2px solid #EBA301;
+  border: 2px solid #EBA301;
 }
 
 .flair-cs-gsas:before {
-content: "CS/GSAS ";
-border-top: 2px solid #e8e8e8;
-border-bottom: 2px solid #e8e8e8;
+  content: "CS/GSAS ";
+  border-top: 2px solid #e8e8e8;
+  border-bottom: 2px solid #e8e8e8;
 }
 
 .flair-cs-cse {
-border: 2px solid #F4742B;
+  border: 2px solid #F4742B;
 }
 
 .flair-cs-cse:before {
-content: "CS/CSE ";
-border-top: 2px solid #EBA301;
-border-bottom: 2px solid #EBA301;
+  content: "CS/CSE ";
+  border-top: 2px solid #EBA301;
+  border-bottom: 2px solid #EBA301;
 }
 
 .flair-cs-bme {
-border: 2px solid #F4742B;
+  border: 2px solid #F4742B;
 }
 
 .flair-cs-bme:before {
-content: "CS/BME ";
-border-top: 2px solid #EBA301;
-border-bottom: 2px solid #EBA301;
+  content: "CS/BME ";
+  border-top: 2px solid #EBA301;
+  border-bottom: 2px solid #EBA301;
 }
 
 .flair-cs-physics {
-border: 2px solid #EBA301;
+  border: 2px solid #EBA301;
 }
 
 .flair-cs-physics:before {
-content: "CS/Physics ";
+  content: "CS/Physics ";
 }
 
 .flair-cs-math {
-border: 2px solid #EBA301;
+  border: 2px solid #EBA301;
 }
 
 .flair-cs-math:before {
-content: "CS/Math ";
+  content: "CS/Math ";
 }
 
 .flair-cs-math-apma {
-border: 2px solid #EBA301;
+  border: 2px solid #EBA301;
 }
 
 .flair-cs-math-apma:before {
-content: "APMA/CS/Math ";
+  content: "APMA/CS/Math ";
 }
 
 .flair-cse {
-border: 2px solid #F4742B;
+  border: 2px solid #F4742B;
 }
 
 .flair-cse:before {
-content: "CSE ";
+  content: "CSE ";
 }
 
 .flair-mtle {
-border: 2px solid #F4742B;
+  border: 2px solid #F4742B;
 }
 
 .flair-mtle:before {
-content: "MTLE ";
+  content: "MTLE ";
 }
 
 .flair-accounting {
-border: 2px solid #BC997B;
+  border: 2px solid #BC997B;
 }
 
 .flair-accounting:before {
-content: "ACCT ";
+  content: "ACCT ";
 }
 
 .flair-pdi {
-border: 2px solid #C25A3D;
+  border: 2px solid #C25A3D;
 }
 
 .flair-pdi:before {
-content: "PDI ";
+  content: "PDI ";
 }
 
 
 .flair-economics {
-border: 2px solid #C25A3D;
+  border: 2px solid #C25A3D;
 }
 
 .flair-economics:before {
-content: "ECON ";
+  content: "ECON ";
 }
 
 .flair-hass {
-border: 2px solid #C25A3D;
+  border: 2px solid #C25A3D;
 }
 
 .flair-hass:before {
-content: "HASS ";
+  content: "HASS ";
 }
 
 .flair-bio-econ {
-border: 2px solid #C25A3D;
+  border: 2px solid #C25A3D;
 }
 
 .flair-bio-econ:before {
-content: "BIO/ECON ";
-border-top: 2px solid #EBA301;
-border-bottom: 2px solid #EBA301;
+  content: "BIO/ECON ";
+  border-top: 2px solid #EBA301;
+  border-bottom: 2px solid #EBA301;
 }
 
 .flair-engineering {
-border: 2px solid #F4742B;
+  border: 2px solid #F4742B;
 }
 
 .flair-ime {
-border: 2px solid #F4742B;
+  border: 2px solid #F4742B;
 }
 
 .flair-ime:before {
-content: "IME ";
+  content: "IME ";
 }
 
 .flair-mecl {
-border: 2px solid #F4742B;
+  border: 2px solid #F4742B;
 }
 
 .flair-mecl:before {
-content: "MECL ";
+  content: "MECL ";
 }
 
 .flair-ee {
-border: 2px solid #F4742B;
+  border: 2px solid #F4742B;
 }
 
 .flair-ee:before {
-content: "EE ";
+  content: "EE ";
 }
 
 .flair-cse-ee {
-border: 2px solid #F4742B;
+  border: 2px solid #F4742B;
 }
 
 .flair-cse-ee:before {
-content: "CSE/EE ";
+  content: "CSE/EE ";
 }
 
 .flair-bme {
-border: 2px solid #F4742B;
+  border: 2px solid #F4742B;
 }
 
 .flair-bme:before {
-content: "BME ";
+  content: "BME ";
 }
 
 .flair-aero {
-border: 2px solid #F4742B;
+  border: 2px solid #F4742B;
 }
 
 .flair-aero:before {
-content: "AERO ";
+  content: "AERO ";
 }
 
 .flair-aero-mecl {
-border: 2px solid #F4742B;
+  border: 2px solid #F4742B;
 }
 
 .flair-aero-mecl:before {
-content: "AERO/MECL ";
+  content: "AERO/MECL ";
 }
 
 .flair-bme-ee {
-border: 2px solid #F4742B;
+  border: 2px solid #F4742B;
 }
 
 .flair-bme-ee:before {
-content: "BME/EE ";
+  content: "BME/EE ";
 }
 
 .flair-enve {
-border: 2px solid #F4742B;
+  border: 2px solid #F4742B;
 }
 
 .flair-enve:before {
-content: "ENVE ";
+  content: "ENVE ";
 }
 
 .flair-science {
-border: 2px solid #EBA301;
+  border: 2px solid #EBA301;
 }
 
 .flair-bfmb {
-border: 2px solid #EBA301;
+  border: 2px solid #EBA301;
 }
 
 .flair-bfmb:before {
-content: "BFMB ";
+  content: "BFMB ";
 }
 
 .flair-cs-itws {
-border: 2px solid #EBA301;
+  border: 2px solid #EBA301;
 }
 
 .flair-cs-itws:before {
-content: "CS/ITWS ";
+  content: "CS/ITWS ";
 }
 
 .flair-itws {
-border: 2px solid #EBA301;
+  border: 2px solid #EBA301;
 }
 
 .flair-itws:before {
-content: "ITWS ";
+  content: "ITWS ";
 }
 
 .flair-it {
-border: 2px solid #EBA301;
+  border: 2px solid #EBA301;
 }
 
 .flair-it:before {
-content: "IT ";
+  content: "IT ";
 }
 
 .flair-bcbp {
-border: 2px solid #EBA301;
+  border: 2px solid #EBA301;
 }
 
 .flair-bcbp:before {
-content: "BCBP ";
+  content: "BCBP ";
 }
 
 .flair-math {
-border: 2px solid #EBA301;
+  border: 2px solid #EBA301;
 }
 
 .flair-math:before {
-content: "MATH ";
+  content: "MATH ";
 }
 
 .flair-physics {
-border: 2px solid #EBA301;
+  border: 2px solid #EBA301;
 }
 
 .flair-physics:before {
-content: "PHYS ";
+  content: "PHYS ";
 }
 
 .flair-chem {
-border: 2px solid #EBA301;
+  border: 2px solid #EBA301;
 }
 
 .flair-chem:before {
-content: "CHEM ";
+  content: "CHEM ";
 }
 
 .flair-bio {
-border: 2px solid #EBA301;
+  border: 2px solid #EBA301;
 }
 
 .flair-bio:before {
-content: "BIO ";
+  content: "BIO ";
 }
 
 .flair-envs {
-border: 2px solid #EBA301;
+  border: 2px solid #EBA301;
 }
 
 .flair-envs:before {
-content: "ENVS ";
+  content: "ENVS ";
 }
 
 .flair-gsas {
-border: 2px solid #e8e8e8;
+  border: 2px solid #e8e8e8;
 }
 
 .flair-gsas:before {
-content: "GSAS ";
+  content: "GSAS ";
 }
 
 .flair-emac {
-border: 2px solid #e8e8e8;
+  border: 2px solid #e8e8e8;
 }
 
 .flair-emac:before {
-content: "EMAC ";
+  content: "EMAC ";
 }
 
 .flair {
-background-color: #FFFFFF;
-color: #000000;
-border-radius: 4px;
--moz-border-radius: 4px;
-font-size: x-small;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  font-size: x-small;
 }
 
 /* Green approval check */
-.author[href$="/jayjaywalker3"]:after, .author[href$="/robberb"]:after, .author[href$="/RPIHealth"]:after, .author[href$="/rpionion"]:after, .author[href$="/Anasha"]:after, .author[href$="/jav032"]:after, .author[href$="/fishyz0911"]:after, .author[href$="/kench"]:after, .author[href$="/blueboybob"]:after, .author[href$="/a-r"]:after, .author[href$="/dontcallme_Liz"]:after, .author[href$="/kanehadley"]:after, .author[href$="/RPIEcoLogic"]:after, .author[href$="/RPICommencement"]:after, .author[href$="/Panteravaca"]:after, .author[href$="/angrybacon"]:after, .author[href$="/lindalindalinda"]:after, .author[href$="/bartoron"]:after, .author[href$="/SOCoordinatorRPI"]:after, .author[href$="/ElizabethA23"]:after, .author[href$="/jammmmmmm"]:after, .author[href$="/silent_melody"]:after, .author[href$="/sugatooth"]:after  {
-     content: url(%%checkmark%%) !important; 
-    position: relative !important;
-    right: 0 !important;
-    bottom: -1px !important;
-    overflow: visible !important;
-    padding-left: 2px;
-    width: 10px !important;
-    height: 10px !important;
-    }
+.author[href$="/jayjaywalker3"]:after,
+.author[href$="/robberb"]:after,
+.author[href$="/RPIHealth"]:after,
+.author[href$="/rpionion"]:after,
+.author[href$="/Anasha"]:after,
+.author[href$="/jav032"]:after,
+.author[href$="/fishyz0911"]:after,
+.author[href$="/kench"]:after,
+.author[href$="/blueboybob"]:after,
+.author[href$="/a-r"]:after,
+.author[href$="/dontcallme_Liz"]:after,
+.author[href$="/kanehadley"]:after,
+.author[href$="/RPIEcoLogic"]:after,
+.author[href$="/RPICommencement"]:after,
+.author[href$="/Panteravaca"]:after,
+.author[href$="/angrybacon"]:after,
+.author[href$="/lindalindalinda"]:after,
+.author[href$="/bartoron"]:after,
+.author[href$="/SOCoordinatorRPI"]:after,
+.author[href$="/ElizabethA23"]:after,
+.author[href$="/jammmmmmm"]:after,
+.author[href$="/silent_melody"]:after,
+.author[href$="/sugatooth"]:after
+{
+  content: url(%%checkmark%%) !important;
+  position: relative !important;
+  right: 0 !important;
+  bottom: -1px !important;
+  overflow: visible !important;
+  padding-left: 2px;
+  width: 10px !important;
+  height: 10px !important;
+}
 
 /* Pretty Things! */
 
-#header-img {width:100%!important;height:auto;}
-#header-bottom-left {background-color: #ffffff;}
+#header-img {
+  width:100%!important;
+  height:auto;
+}
 
-#header-bottom-left .redditname{
-
+#header-bottom-left {
+  background-color: #ffffff;
 }
 
 .tabmenu li a {
   background-color: #ffffff;
 }
 
-#header-bottom-left span.redditname a {color: #000000; font-size:120%}
+#header-bottom-left span.redditname a {
+  color: #000000;
+  font-size: 120%;
+}
