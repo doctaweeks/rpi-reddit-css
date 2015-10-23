@@ -1,40 +1,40 @@
 .titlebox form {
-	position: static;
+  position: static;
 }
 
 .side .md h6 {
-	position: absolute;
-	top: 75px;
-	left: 220px;
+  position: absolute;
+  top: 75px;
+  left: 220px;
  /*Adjust this until sticky is in position*/
-	display: inline-block;
-	padding: 5px;
-	background: #F6E69F;
-	border: 1px solid orange;
-	display: block;
-	font-weight: bold;
+  display: inline-block;
+  padding: 5px;
+  background: #F6E69F;
+  border: 1px solid orange;
+  display: block;
+  font-weight: bold;
 }
 
 div.titlebox span.word {
-	display: none;
+  display: none;
 }
 
 div.titlebox span.number:after {
-	content: " nerds";
+  content: " nerds";
 }
 
 .users-online:after {
-	content: "online"
+  content: "online"
 }
 
 /* Beginning of flair block */
 .flair {
-	background-color: #FFFFFF;
-	color: #000000;
-	border-radius: 4px;
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px; 
-	font-size: x-small;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px; 
+  font-size: x-small;
 }
 
 .flair-architecture { border: 2px solid #6C5081; }
@@ -193,44 +193,44 @@ div.titlebox span.number:after {
 .author[href$="amonymoose"]:after,
 .author[href$="/sarbos"]:after,
 .author[href$="/TheG00GLE"]:after {
-	content: url(%%checkmark%%) !important; 
-	position: relative !important;
-	right: 0 !important;
-	bottom: -1px !important;
-	overflow: visible !important;
-	padding-left: 2px;
-	width: 10px !important;
-	height: 10px !important;
+  content: url(%%checkmark%%) !important; 
+  position: relative !important;
+  right: 0 !important;
+  bottom: -1px !important;
+  overflow: visible !important;
+  padding-left: 2px;
+  width: 10px !important;
+  height: 10px !important;
 }
 
 /* Header styles */
 
 #header { /* background banner */
-	height: 144px;
-	background-image: url(%%reddit-banner-nologo%%);
-        background-repeat: no-repeat;
-        background-size: cover;
+  height: 144px;
+  background-image: url(%%reddit-banner-nologo%%);
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 #header-img { /* reddit alien */
-	/*margin-top: 15px;
-	margin-left: 10px;
-	height: 100px;
-	width: 75px;
-        margin-right: 0px;*/
-    display: none;
+  /*margin-top: 15px;
+  margin-left: 10px;
+  height: 100px;
+  width: 75px;
+  margin-right: 0px;*/
+  display: none;
 }
 
 .pagename a {
-	font-size: 0 !important;
-    /*color: #C90820;
-    font-size: 1.1em;*/
-    background-image: url(%%alien%%);
-    margin-left: 7px;
-    margin-top: 8px;
-    width:75px;
-    height:100px; /*100*/
-    content: "";
+  font-size: 0 !important;
+  /*color: #C90820;
+  font-size: 1.1em;*/
+  background-image: url(%%alien%%);
+  margin-left: 7px;
+  margin-top: 8px;
+  width:75px;
+  height:100px; /*100*/
+  content: "";
 background-size: 75px 100px;
 background-position: -0px;
 display: inline-block;
@@ -239,32 +239,31 @@ display: inline-block;
 
 
 #header .tabmenu {
-	position: absolute;
-	bottom: 0;
-	left: 91px;
-
+  position: absolute;
+  bottom: 0;
+  left: 91px;
 }
 
 /*Facebook Like Graphic*/ 
 a[href="https://www.facebook.com/rpireddit"]:after { 
-	width: 45px; 
-	height: 45px; 
-	content: ""; 
-	background-image: url(%%facebooklogo%%);
-	background-position: -0px; 
-	display: inline-block; 
-	cursor: default;
+  width: 45px; 
+  height: 45px; 
+  content: ""; 
+  background-image: url(%%facebooklogo%%);
+  background-position: -0px; 
+  display: inline-block; 
+  cursor: default;
 }
 
 /*Twitter Feed Graphic*/ 
 a[href="http://www.twitter.com/RPIreddit"]:after { 
-	width: 45px; 
-	height: 45px; 
-	content: ""; 
-	background-image: url(%%twitterlogo%%); 
-	background-position: -0px; 
-	display: inline-block; 
-	cursor: default;
+  width: 45px; 
+  height: 45px; 
+  content: ""; 
+  background-image: url(%%twitterlogo%%); 
+  background-position: -0px; 
+  display: inline-block; 
+  cursor: default;
 }
 
 /*Link Flair*/
